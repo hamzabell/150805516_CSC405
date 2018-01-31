@@ -1,0 +1,251 @@
+body{
+	background: url("g-guitarist.jpg");
+
+}
+header{
+	padding : 10px;
+	background-color : black;
+	color : white;
+	text-align : center;
+	font-family : comic sans ms;
+}
+
+nav{
+	float : top;
+	padding: 5px;
+	width : 92%;
+}
+
+nav ul{
+	list-style-type: none;
+    margin: -5px
+	
+}
+
+nav ul a{
+	text-decoration : none;
+	font-family : comic sans ms;
+	margin: 0px;
+}
+
+article{
+	float : left;
+	margin-top:15px;
+	width : 65%;
+	height : 480px;
+	border-radius : 5px;
+}
+
+aside.slide{
+	float: right;
+}
+
+aside.slide h1{
+	font-family : comic sans ms;
+	text-align : center;
+	
+}
+
+footer{
+	position: absolute;
+	background-image : url("guitarist.jpg");
+	font-family : comic sans ms;
+	color : black;
+	width: 100%;
+	font-size: 100%;
+	padding: 10px;
+	margin-top : 530px;
+	text-align : center;
+	border-radius : 5px;
+}
+
+nav ul li{
+	display : inline;
+	padding: 160px;
+}
+
+aside{
+	float : right;
+	margin-top:15px;
+	width : 19%;
+	height : 480px;
+	border-radius : 5px;
+	margin-right: 10px;
+	color: grey;
+}
+
+
+aside.aside-container div.image-container {
+    border: 1px solid black;
+	padding: 5px;
+	margin-top : 10px;
+	height: 210px;
+	border-radius: 1850px;
+	background-image: url("phto1.jpg");
+	background-size: cover;
+	
+}
+
+aside.aside-container pre{
+	line-height: 1.8;
+	font-family: comic sans ms;
+	font-size: 100%;
+	margin: 20px;
+}
+
+aside.aside-container pre a{
+	text-decoration: none;
+}
+
+a:link {
+    color: blue;
+}
+
+
+a:visited {
+    color: blue;
+}
+
+ a:hover {
+    color: hotpink;
+}
+
+a:active {
+     color: red;
+}
+
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 10%;
+  width: auto;
+  padding: 5px;
+  margin-top: -250px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.prev{
+	float: left;
+
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  float: right;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+aside.slide div img{
+	height :50%;
+	width: 89%;
+}
+
+article.aboutme-article h1{
+	text-align: center;
+	font-family: comic sans ms;
+}
+
+article.aboutme-article pre{
+	margin: 30px;
+	color: grey;
+	font-size: 15px;
+	font-family: comic sans ms;
+	height: 380px;
+}
+
+aside.slide{
+	text-align: center;
+	width: 30%;
+}
+
+article.index-article div{
+	padding: 25px;
+	float: left;
+	margin: 5px;
+	margin-top: 410px;
+	border-radius: 30px;
+}
+
+article.index-article p{
+	padding: 25px;
+	float: left;
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 150%;
+	color: grey;
+	background-color: rgba(255,0,0,0.4);
+	border-radius: 30px;
+	margin-left: 20px;
+	margin-top: 180px;
+	width:30%;
+}
+article.index-article div.fb-container{
+	background:url("sn1.png");
+	background-size: cover;
+}
+
+article.index-article div.twitter-container{
+	background:url("sn2.png");
+	background-size: cover;
+}
+
+article.index-article div.ins-container{
+	background:url("sn3.png");
+	background-size: cover;
+}
+
+div.contact-container{
+    width: 30%;	
+	padding: 105px;
+	margin-top: 10px;
+	height: 50%;
+	float:left;
+}
+div.contact-container pre{
+	padding: 1px;
+	float:left;
+	margin: 10px;
+	padding: 15px;
+}
+
+aside.album-art div{
+	border: 1px solid black;
+	padding: 5px;
+	margin-top : 10px;
+	height: 210px;
+	border-radius: 1850px;
+	background-image: url("coff.png");
+	background-size: cover;
+}
+
